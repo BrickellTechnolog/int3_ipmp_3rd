@@ -78,7 +78,7 @@
 }
 
 .header {
-  background-color: #262936;
+  background-color: #121212;
   position: fixed;
   top: 0;
   left: 0;
@@ -284,7 +284,7 @@
 
 .listingTypeLabel {
   display: inline-block;
-  background-color: #262936;
+  background-color: #121212;
   padding: 10px 20px;
   font-size: 16px;
   border: 2px solid #444;
@@ -297,7 +297,7 @@
 .listingType:checked + label {
   border: 3px solid transparent;
   border-radius: 20px;
-  background: linear-gradient(to right, #262936, #262936),
+  background: linear-gradient(to right, #121212, #121212),
     linear-gradient(to right, #418dff, #cc25b3);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;

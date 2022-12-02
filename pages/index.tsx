@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
   // Connect your marketplace smart contract here (replace this address)
   const { contract: marketplace } = useContract(
-    "0x277C0FB19FeD09c785448B8d3a80a78e7A9B8952", // Your marketplace contract address here
+    "0xCaa0466eE5C066957D246a8cE31Cc288F3978A8e", // Your marketplace contract address here
     "marketplace"
   );
 
@@ -26,21 +26,9 @@ const Home: NextPage = () => {
       {/* Content */}
       <div className={styles.container}>
         {/* Top Section */}
-        <h1 className={styles.h1}>NFT Marketplace w/ thirdweb + Next.JS</h1>
+        <h1 className={styles.h1}>The Int3rPlanetary MarketPlace: Shop 3</h1>
         <p className={styles.explain}>
-          Build an NFT marketplace using{" "}
-          <b>
-            {" "}
-            <a
-              href="https://thirdweb.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.purple}
-            >
-              thirdweb
-            </a>
-          </b>{" "}
-          to list your ERC721 and ERC1155 tokens for auction or for direct sale.
+          The Int3rPlanetaryDAO Fully Decentralized NFT Shop.
         </p>
 
         <hr className={styles.divider} />

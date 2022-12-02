@@ -20,7 +20,7 @@ const Create: NextPage = () => {
 
   // Connect to our marketplace contract via the useContract hook
   const { contract: marketplace } = useContract(
-    "0x277C0FB19FeD09c785448B8d3a80a78e7A9B8952", // Your marketplace contract address here
+    "0xCaa0466eE5C066957D246a8cE31Cc288F3978A8e", // Your marketplace contract address here
     "marketplace"
   );
 

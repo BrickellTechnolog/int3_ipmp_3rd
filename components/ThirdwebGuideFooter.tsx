@@ -2,7 +2,7 @@ import styles from "../../styles/Thirdweb.module.css";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://github.com/thirdweb-example/marketplace-next-ts";
+  const url = "https://orderoftheartisans.org";
   return (
     <>
       <div
@@ -24,15 +24,15 @@ export default function ThirdwebGuideFooter() {
       <div
         style={{
           position: "fixed",
-          bottom: 14,
-          right: 18,
+          bottom: 10,
+          right: 14,
         }}
       >
         <img
-          src={"/github.png"}
-          alt="github url"
-          width={40}
-          height={40}
+          src={"/oota.png"}
+          alt="orderoftheartisans.org"
+          width={100}
+          height={100}
           role="button"
           style={{ cursor: "pointer" }}
           onClick={() => window.open(url, "_blank")}
