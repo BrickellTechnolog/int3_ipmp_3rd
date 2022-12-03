@@ -1,5 +1,6 @@
 {
-  "name": "my-marketplace",
+  "name": "int3IPMP3",
+  "homepage": "./",
   "private": true,
   "scripts": {
     "dev": "next dev",
